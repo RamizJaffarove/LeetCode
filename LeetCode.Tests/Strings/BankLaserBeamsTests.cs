@@ -1,5 +1,3 @@
-using LeetCode.Strings;
-
 namespace LeetCode.Tests.Strings;
 
 public class BankLaserBeamsTests
@@ -19,7 +17,7 @@ public class BankLaserBeamsTests
         int actual = calculator.NumberOfBeams(bank);
 
         //Assert
-        Assert.That(actual, Is.EqualTo(expected));
+        That(actual, EqualTo(expected));
     }
 
     private static IEnumerable<object> TestCaseSource()
